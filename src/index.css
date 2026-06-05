@@ -17,4 +17,5 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--text-primary);
   font-family: var(--font-family);
+  min-height: 100vh;
 }
