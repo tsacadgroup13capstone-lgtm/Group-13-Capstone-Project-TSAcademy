@@ -1,0 +1,20 @@
+:root {
+  --primary-bg-color: #0b132b;
+  --text-primary: #ffffff;
+  --text-secondary: #8da9c4;
+  --button-blue: #1c4ed8;
+  --font-family: "Inter", sans-serif;
+}
+
+/* Basic CSS Reset for the team */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+}
