@@ -12,7 +12,7 @@ This capstone demonstrates our proficiency in HTML, CSS, JavaScript fundamentals
 
 ## 👨🏽‍🤝‍👨🏻 Team members
 
-- for example: **Sultan** (Team Lead) - [GitHub Profile link]
+- for example: **Sultan** (Team Lead) - [https://github.com/BashirSaka]
 - **Emmanuel Ezulumike .N.** (Ass Team Lead) - [https://github.com/Emi98nat/]
 - **[Member 3 Name]** - [GitHub Profile Link]
 - **[Member 4 Name]** - [GitHub Profile Link]
