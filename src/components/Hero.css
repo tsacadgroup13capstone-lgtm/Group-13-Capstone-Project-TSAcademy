@@ -1,0 +1,263 @@
+.hero-section {
+  width: 100%;
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 72% 40%,
+      rgba(28, 78, 216, 0.25),
+      transparent 28%
+    ),
+    linear-gradient(135deg, #071638 0%, var(--primary-bg-color) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 32px;
+  overflow: hidden;
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 1180px;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 70px;
+}
+
+.hero-text {
+  max-width: 520px;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 24px;
+}
+
+.hero-text p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin-bottom: 34px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  min-width: 150px;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 0.35s ease;
+  overflow: hidden;
+}
+
+.primary-btn {
+  color: #ffffff;
+  background: linear-gradient(135deg, #2563eb, var(--button-blue));
+  box-shadow: 0 14px 35px rgba(28, 78, 216, 0.35);
+}
+
+.primary-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -90%;
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.35),
+    transparent
+  );
+  transition: 0.6s;
+}
+
+.primary-btn:hover::before {
+  left: 120%;
+}
+
+.primary-btn:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 20px 45px rgba(28, 78, 216, 0.55);
+}
+
+.secondary-btn {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+}
+
+.secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #ffffff;
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(255, 255, 255, 0.08);
+}
+
+.hero-image-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: floatPlanet 5s ease-in-out infinite;
+}
+
+.planet-glow {
+  position: absolute;
+  width: 390px;
+  height: 390px;
+  border-radius: 50%;
+  background: rgba(37, 99, 235, 0.22);
+  filter: blur(60px);
+}
+
+.hero-planet {
+  width: 800px;
+  max-width: 100%;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 0 35px rgba(89, 173, 255, 0.45));
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .hero-section {
+    padding: 40px 24px;
+  }
+
+  .hero-content {
+    gap: 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 40px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-planet {
+    width: 350px;
+  }
+
+  .planet-glow {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+  .hero-section {
+    padding: 80px 20px 45px;
+    text-align: center;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 55px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 34px;
+    line-height: 1.15;
+    margin-bottom: 26px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 auto 32px;
+    max-width: 340px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .hero-btn {
+    min-width: 130px;
+    padding: 13px 18px;
+    font-size: 14px;
+  }
+
+  .hero-planet {
+    width: 270px;
+  }
+
+  .planet-glow {
+    width: 260px;
+    height: 260px;
+    filter: blur(45px);
+  }
+}
+
+/* Small phones */
+@media (max-width: 380px) {
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-btn {
+    width: 100%;
+    max-width: 230px;
+  }
+}
+
+@keyframes floatPlanet {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-18px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
