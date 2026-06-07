@@ -8,23 +8,25 @@ This capstone demonstrates our proficiency in HTML, CSS, JavaScript fundamentals
 
 ## 🚀 Live Demo
 
-**Deployment Link:** [Insert the Netlify/Vercel URL here]
+**Deployment Link:** [https://group-13-tsacademy-capstone.netlify.app/]
 
 ## 👨🏽‍🤝‍👨🏻 Team members
 
-- for example: **Sultan** (Team Lead) - [GitHub Profile link]
+- **Bashir Saka** (Team Lead) - [https://github.com/BashirSaka/RESPONSIVE-PROJECT-FLEXBOX.git]
 - **Emmanuel Ezulumike .N.** (Ass Team Lead) - [https://github.com/Emi98nat/]
-- **[Member 3 Name]** - [GitHub Profile Link]
-- **[Member 4 Name]** - [GitHub Profile Link]
-- **[Member 5 Name]** - [GitHub Profile Link]'
-- **[Member 6 Name]** - [GitHub Profile Link]
-- **[Member 7 Name]** - [GitHub Profile Link]
-- **[Member 8 Name]** - [GitHub Profile Link]
-- **[Member 9 Name]** - [GitHub Profile Link]
-- **[Member 9 Name]** - [GitHub Profile Link]
-- **[Member 9 Name]** - [GitHub Profile Link]
-- **[Member 9 Name]** - [GitHub Profile Link]
-  etc.
+- **Mesole Dare Temitope** (Collaborator) - [https://github.com/temmytorpe312-pixel]
+- **Idowu Opemipo soliu** (Collaborator) - [https://github.com/idowuoriyomi808-ai]
+- **Akinmolayan Olumide Taiwo** (Collaborator) - [https://github.com/mideakinmolayan]
+- **Sasere Okikiola Rebecca** (Collaborator) - [https://github.com/Rebecca0-12]
+- **Otaru Simon** (Collaborator) - [https://github.com/Orenyi]
+- **Oriowo Omobolanle** (Collaborator) - [https://github.com/Omobolanle27]
+- **Serah akojenu** (Collaborator) - [https://github.com/akojenuserah]
+- **Adebola Adetunbi** (Collaborator) - [https://github.com/Adebola09]
+- **Asuquo Raphael Israel** (Collaborator) - [https://github.com/Battleaxe-R]
+- **Ogba Emeka** (Collaborator) - [https://github.com/ogba07]
+- **Modester Ihedigbo** (Collaborator) - [https://github.com/moddyoge-cloud]
+- **Ajunwa Favour .C.** (Collaborator) - [https://github.com/Favourh]
+
 
 ## 🧩 Component Architecture & Task Distribution
 
