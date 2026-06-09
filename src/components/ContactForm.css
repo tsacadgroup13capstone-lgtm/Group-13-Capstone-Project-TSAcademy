@@ -127,6 +127,13 @@
   box-shadow: 0 16px 35px rgba(28, 78, 216, 0.3);
 }
 
+.form-status-message {
+  margin-top: 16px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #16a34a;
+}
+
 /* Tablet */
 @media (max-width: 900px) {
   .contact-section {
