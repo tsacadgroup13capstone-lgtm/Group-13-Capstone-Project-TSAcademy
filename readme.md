@@ -8,7 +8,7 @@ This capstone demonstrates our proficiency in HTML, CSS, JavaScript fundamentals
 
 ## 🚀 Live Demo
 
-**Deployment Link:** [https://group-13-tsacademy-capstone.netlify.app/]
+**Deployment Link:** [https://group13capstoneprojecttsacademy.vercel.app/]
 
 ## 👨🏽‍🤝‍👨🏻 Team members
 
