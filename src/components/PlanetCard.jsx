@@ -3,7 +3,7 @@ import "./PlanetCard.css";
 
 function PlanetCard({ planet, distanceFromSun, image }) {
   return (
-    <div className="planet-card" id="data">
+    <div className="planet-card">
       <img src={image} alt={planet} className="planet-img" />
       <div className="planet-info">
         <p className="planet-name">{planet}</p>

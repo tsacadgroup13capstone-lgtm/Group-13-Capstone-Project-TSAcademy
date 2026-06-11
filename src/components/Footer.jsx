@@ -44,11 +44,11 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <div className="footer-left">
-            <p>©2026 Design by<a href="https://amakandukwu.com/">Amaka</a> & <a href="https://www.linkedin.com/in/ifeomaokocha">Ifeoma A.</a></p>
+            <p>©2026 Design by Amaka & Ifeoma A.</p>
             <p>Built by Group13. All rights reserved.</p>
           </div>
 
-          <div className="footer-right"><a href="https://tsacademyonline.com/">TSAcademy</a></div>
+          <div className="footer-right">TSAcademy</div>
         </div>
       </div>
     </footer>
