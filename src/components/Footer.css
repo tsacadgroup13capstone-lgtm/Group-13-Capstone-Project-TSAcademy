@@ -3,7 +3,9 @@
   color: #ffffff;
   padding: 24px 0 16px;
 }
-
+.footer a{
+  text-decoration: none;
+}
 .footer-container {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
@@ -47,6 +49,9 @@
 
 .members-grid span {
   white-space: nowrap;
+}
+.members-grid span a{
+  color: #ffffff;
 }
 
 .footer-line {
