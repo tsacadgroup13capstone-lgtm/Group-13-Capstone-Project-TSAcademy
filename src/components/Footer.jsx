@@ -19,23 +19,23 @@ export default function Footer() {
           <div className="footer-members">
             <h4>Our team members include:</h4>
            <div className="members-grid">
-  <span>Emmanuel</span>
-  <span>Bashir</span>
-  <span>Sasere</span>
-  <span>Akinmolayan</span>
+  <span><a href="https://github.com/Emi98nat/">Emmanuel</a></span>
+  <span><a href="https://github.com/BashirSaka/RESPONSIVE-PROJECT-FLEXBOX.git">Bashir</a></span>
+  <span><a href="https://github.com/Rebecca0-12">Sasere</a></span>
+  <span><a href="https://github.com/mideakinmolayan">Akinmolayan</a></span>
 
-  <span>Modester</span>
-  <span>Otaru</span>
-  <span>Oriowo</span>
-  <span>Akojenu</span>
+  <span><a href="https://github.com/moddyoge-cloud">Modester</a></span>
+  <span><a href="https://github.com/Orenyi">Otaru</a></span>
+  <span><a href="https://github.com/Omobolanle27">Oriowo</a></span>
+  <span><a href="https://github.com/akojenuserah">Akojenu</a></span>
 
-  <span>Adebola</span>
-  <span>Asuquo</span>
-  <span>Idowu</span>
-  <span>Ogba</span>
+  <span><a href="https://github.com/Adebola09">Adebola</a></span>
+  <span><a href="https://github.com/Battleaxe-R">Asuquo</a></span>
+  <span><a href="https://github.com/idowuoriyomi808-ai">Idowu</a></span>
+  <span><a href="https://github.com/ogba07">Ogba</a></span>
 
-  <span>Ajunwa</span>
-  <span>Mesole</span>
+  <span><a href="https://github.com/Favourh">Ajunwa</a></span>
+  <span><a href="https://github.com/temmytorpe312-pixel">Mesole</a></span>
 </div>
           </div>
         </div>
