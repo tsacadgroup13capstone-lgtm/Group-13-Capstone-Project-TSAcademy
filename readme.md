@@ -33,12 +33,12 @@ This capstone demonstrates our proficiency in HTML, CSS, JavaScript fundamentals
 
 _(Highlight any project that were a collaborative group effort)_
 
-- <Navbar /> & <Hero /> (Includes scroll-to-data logic) - _[Team Member Name]_
-- <VideoSection /> (Autoplay, muted, loop logic) - _[Team Member Name]_
-- <PlanetGrid /> & <PlanetCard /> (Fetch API implementation & <figure> rendering) - _[Team Member Name]_
-- <DataTable /> (Mobile-responsive data layout) - _[Team Member Name]_
-- <ContactForm /> (Client-side validation & submission) - _[Team Member Name]_
-- <Footer /> (Team bios & external routing) - *[Team Member Name]*
+- \<Navbar /> & \<Hero /> (Includes scroll-to-data logic) - _[Team Member Name]_
+- \<VideoSection /> (Autoplay, muted, loop logic) - _[Team Member Name]_
+- \<PlanetGrid /> & \<PlanetCard /> (Fetch API implementation & <figure> rendering) - _[Team Member Name]_
+- \<DataTable /> (Mobile-responsive data layout) - _[Team Member Name]_
+- \<ContactForm /> (Client-side validation & submission) - _[Team Member Name]_
+- \<Footer /> (Team bios & external routing) - *[Team Member Name]*
 - Global CSS Variables & Mobile-First Architecture - _[Team Member Name]_
 
 ## 💻 Local Setup (PC & Termux/Android)
