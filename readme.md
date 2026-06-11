@@ -6,6 +6,7 @@ This application recreates the Phoenix Cohort space - themed mockup as a fully f
 
 This capstone demonstrates our proficiency in HTML, CSS, JavaScript fundamentals, React component-based architecture, the fetch API, mobile-first responsive design, and collaborative Git workflows - showcasing the culmination of the TS Academy Frontend Development Course.
 
+*There is a READme.md in the src folder for working with components*
 ## 🚀 Live Demo
 
 **Deployment Link:** [https://group13capstoneprojecttsacademy.vercel.app/]
