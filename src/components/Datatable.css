@@ -1,102 +1,101 @@
 /* Section and Container Layout */
 .data-table-section {
-	background-color: #ffffff; /* Ensures the whole background is white */
-	padding: 60px 0;
-	width: 100%;
+  background-color: #ffffff; /* Ensures the whole background is white */
+  padding: 60px 0;
+  width: 100%;
 }
 
 .data-table-container {
-	font-family: "Inter", sans-serif;
-	margin: 0 auto;
-	width: 90%;
-	max-width: 1000px;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
 }
-
 /* Typography Styling */
 .h2-heading {
-	color: #1a4ba3; /* Deep Figma Blue */
-	font-size: 32px;
-	margin-bottom: 12px;
-	font-weight: 700;
+  color: #1a4ba3; /* Deep Figma Blue */
+  font-size: 32px;
+  margin-bottom: 12px;
+  font-weight: 700;
 }
 
 .paragraph {
-	color: #333333;
-	font-size: 16px;
-	line-height: 1.5;
-	margin-bottom: 40px;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
 }
 
 .table-caption {
-	color: #111827;
-	font-size: 16px;
-	font-weight: 700;
-	margin-bottom: 12px;
-	text-align: left;
+  color: #111827;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: left;
 }
 
 /* Table Wrapper for Rounded Corners */
 .table-wrapper {
-	border-radius: 12px;
-	overflow: hidden; /* Clips the table corners smoothly */
-	width: 100%;
+  border-radius: 12px;
+  overflow: hidden; /* Clips the table corners smoothly */
+  width: 100%;
 }
 
 /* Main Table Layout */
 .planet-table {
-	width: 100%;
-	border-collapse: collapse;
-	border-style: hidden; /* Hides the very outer border for smooth wrapper corners */
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden; /* Hides the very outer border for smooth wrapper corners */
 }
 
 /* Thick White Inner Borders */
 .planet-table th,
 .planet-table td {
-	border: 3px solid #ffffff;
-	padding: 16px 12px;
-	text-align: center;
-	font-size: 14px;
+  border: 3px solid #ffffff;
+  padding: 16px 12px;
+  text-align: center;
+  font-size: 16px;
 }
 
 /* Background Color Hierarchy */
 .header-primary {
-	background-color: #2152a6;
-	color: #ffffff;
-	font-weight: 600;
+  background-color: #2152a6;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .category-cell {
-	background-color: #d2e3fc; /* Light Blue Main Category */
-	color: #111827;
-	font-weight: 700;
+  background-color: #d2e3fc; /* Light Blue Main Category */
+  color: #111827;
+  font-weight: 700;
 }
 
 .category-cell-sub {
-	background-color: #dfecfd; /* Slightly lighter sub-category */
-	color: #111827;
-	font-weight: 700;
+  background-color: #dfecfd; /* Slightly lighter sub-category */
+  color: #111827;
+  font-weight: 700;
 }
 
 .data-cell {
-	background-color: #f8fafc; /* Very faint blue/grey for data rows */
-	color: #111827;
+  background-color: #f8fafc; /* Very faint blue/grey for data rows */
+  color: #111827;
 }
 
 /* --- RESPONSIVE BREAKPOINTS --- */
 
 /* Tablet Optimization */
 @media (max-width: 900px) {
-	.planet-table th,
-	.planet-table td {
-		padding: 12px 8px;
-		font-size: 12px;
-	}
+  .planet-table th,
+  .planet-table td {
+    padding: 12px 8px;
+    font-size: 12px;
+  }
 }
 
 /* Mobile & Small Phones: 650px and below */
 /* Hides the table completely as requested for the Planet Grid */
 @media (max-width: 650px) {
-	.data-table-section {
-		display: none;
-	}
+  .data-table-section {
+    display: none;
+  }
 }

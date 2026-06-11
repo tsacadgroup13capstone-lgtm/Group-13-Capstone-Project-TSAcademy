@@ -6,6 +6,7 @@ This application recreates the Phoenix Cohort space - themed mockup as a fully f
 
 This capstone demonstrates our proficiency in HTML, CSS, JavaScript fundamentals, React component-based architecture, the fetch API, mobile-first responsive design, and collaborative Git workflows - showcasing the culmination of the TS Academy Frontend Development Course.
 
+*There is a READme.md in the src folder for working with components*
 ## 🚀 Live Demo
 
 **Deployment Link:** [https://group13capstoneprojecttsacademy.vercel.app/]
@@ -62,7 +63,7 @@ All team members must ensure their components meet the following academy criteri
 - _Planet API:_ Images must be rendered using the HTML5 <figure> element.
 - _Form Submission:_ Retain all client-side validation and display a clear success message upon submission to the provided endpoint.
 - _Footer Links:_ Must include correct routing to Amaka's site, Ifeoma's LinkedIn, TSacademy, and this repository.
-- _Meta Tag:_ The index.html must contain <meta name="author" content="[Your Group Name]">.
+- _Meta Tag:_ The index.html must contain \<meta name="author" content="[Your Group Name]">.
 
 ## 🤝 Collaborative Git Workflow & Rules
 
