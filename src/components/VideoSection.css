@@ -6,9 +6,8 @@
   gap: 80px;
   width: 100%;
   padding: 100px 60px;
-  background: #ffffff;
+  background: var(--text-primary);
 }
-
 
 .video-container {
   flex-shrink: 0;
@@ -31,7 +30,7 @@
 .video-content h2 {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #164BAF;
+  color: var(--button-blue);
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -45,7 +44,7 @@
 }
 
 .video-content span {
-  color: #1274A4;
+  color: var(--text-secondary);
   font-weight: 600;
 }
 

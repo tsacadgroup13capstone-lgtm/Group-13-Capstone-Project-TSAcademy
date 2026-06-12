@@ -1,9 +1,9 @@
 .footer {
-  background: #00195d;
-  color: #ffffff;
+  background: var(--footer-bg-color);
+  color: var(--text-primary);
   padding: 24px 0 16px;
 }
-.footer a{
+.footer a {
   text-decoration: none;
 }
 .footer-container {
@@ -50,8 +50,8 @@
 .members-grid span {
   white-space: nowrap;
 }
-.members-grid span a{
-  color: #ffffff;
+.members-grid span a {
+  color: var(--text-primary);
 }
 
 .footer-line {
@@ -80,7 +80,11 @@
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.95);
 }
-
+.footer-right a,
+.footer-left a {
+  color: var(--footer-right-a);
+  text-decoration: none;
+}
 @media (max-width: 768px) {
   .footer {
     padding: 24px 0 16px;

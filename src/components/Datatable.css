@@ -1,19 +1,20 @@
 /* Section and Container Layout */
 .data-table-section {
-  background-color: #ffffff; /* Ensures the whole background is white */
+  background-color: var(
+    --text-primary
+  ); /* Ensures the whole background is white */
   padding: 60px 0;
   width: 100%;
 }
 
 .data-table-container {
-  font-family: "Inter", sans-serif;
   margin: 0 auto;
   width: 100%;
   max-width: 1200px;
 }
 /* Typography Styling */
 .h2-heading {
-  color: #1a4ba3; /* Deep Figma Blue */
+  color: var(--button-blue); /* Deep Figma Blue */
   font-size: 32px;
   margin-bottom: 12px;
   font-weight: 700;
@@ -27,7 +28,7 @@
 }
 
 .table-caption {
-  color: #111827;
+  color: var(--primary-bg-color);
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 12px;
@@ -51,7 +52,7 @@
 /* Thick White Inner Borders */
 .planet-table th,
 .planet-table td {
-  border: 3px solid #ffffff;
+  border: 3px solid var(--text-primary); /* Thick white borders */
   padding: 16px 12px;
   text-align: center;
   font-size: 16px;
@@ -59,8 +60,8 @@
 
 /* Background Color Hierarchy */
 .header-primary {
-  background-color: #2152a6;
-  color: #ffffff;
+  background-color: var(--button-blue); /* Deep Figma Blue for main headers */
+  color: var(--text-primary);
   font-weight: 600;
 }
 
