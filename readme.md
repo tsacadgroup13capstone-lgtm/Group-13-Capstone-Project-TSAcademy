@@ -33,13 +33,16 @@ This capstone demonstrates our proficiency in HTML, CSS, JavaScript fundamentals
 
 _(Highlight any project that were a collaborative group effort)_
 
-- \<Navbar /> & \<Hero /> (Includes scroll-to-data logic) - _[Team Member Name]_
-- \<VideoSection /> (Autoplay, muted, loop logic) - _[Team Member Name]_
-- \<PlanetGrid /> & \<PlanetCard /> (Fetch API implementation & <figure> rendering) - _[Team Member Name]_
-- \<DataTable /> (Mobile-responsive data layout) - _[Team Member Name]_
-- \<ContactForm /> (Client-side validation & submission) - _[Team Member Name]_
-- \<Footer /> (Team bios & external routing) - *[Team Member Name]*
-- Global CSS Variables & Mobile-First Architecture - _[Team Member Name]_
+- \<Navbar /> & \<Hero /> (Includes scroll-to-data logic) - _[Otaru Simon, Akinmolayan Olumide Taiwo]_
+- \<VideoSection /> (Autoplay, muted, loop logic) - _[Adebola Adetunbi, Idowu Opemimo Saliu]_
+- \<PlanetGrid /> & \<PlanetCard /> (Fetch API implementation & <figure> rendering) - _[Akojenu Serah, Idowu Opemimo Soliu]_
+- \<DataTable /> (Mobile-responsive data layout) - _[Emmanuel Ezulumike, Ogba Emeka]_
+- \<ContactForm /> (Client-side validation & submission) - _[Bashir Saka, Modester Ihedigbo(S.Eng), Otaru Simon]_
+- \<Footer /> (Team bios & external routing) - *[Mesole Dare Temitope, Modester Ihedigbo, Akinmolayan Olumide Taiwo, Ogba Emeka]*
+  - Global CSS Variables and Setup Using team Github account (tsacadgroup13capstone-lgtm) - [Team Lead & Ass.Team Lead] _
+   - readme.md & READme.md(src) - [SaSare Rebecca, Oriowo Omobolanle, Ajunwa Favour]
+   - Report.md - [Team Lead, Ass. Team Lead, Sasare Rebecca]
+  - Meta tags Placement - [Asuquo Raphael Israel]
 
 ## 💻 Local Setup (PC & Termux/Android)
 
