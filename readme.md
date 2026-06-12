@@ -39,10 +39,10 @@ _(Highlight any project that were a collaborative group effort)_
 - \<DataTable /> (Mobile-responsive data layout) - _[Emmanuel Ezulumike, Ogba Emeka]_
 - \<ContactForm /> (Client-side validation & submission) - _[Bashir Saka, Modester Ihedigbo(S.Eng), Otaru Simon]_
 - \<Footer /> (Team bios & external routing) - *[Mesole Dare Temitope, Modester Ihedigbo, Akinmolayan Olumide Taiwo, Ogba Emeka]*
-  - Global CSS Variables and Setup Using team Github account (tsacadgroup13capstone-lgtm) - [Team Lead & Ass.Team Lead] _
-   - readme.md & READme.md(src) - [SaSare Rebecca, Oriowo Omobolanle, Ajunwa Favour]
-   - Report.md - [Team Lead, Ass. Team Lead, Sasare Rebecca]
-  - Meta tags Placement - [Asuquo Raphael Israel]
+- Global CSS Variables and Setup Using team Github account (tsacadgroup13capstone-lgtm) - [Team Lead & Ass.Team Lead] _
+- readme.md & READme.md(src) - [SaSare Rebecca, Oriowo Omobolanle, Ajunwa Favour]
+- Report.md - [Team Lead, Ass. Team Lead, Sasare Rebecca]
+- Meta tags Placement - [Asuquo Raphael Israel]
 
 ## 💻 Local Setup (PC & Termux/Android)
 
