@@ -49,22 +49,9 @@ Completing this Capstone Project before the final deadline stands as a massive m
 
 More importantly, this project drastically improved our collaborative skills. We learned how to communicate technical blockers effectively, conduct peer code reviews, and operate within a professional Git environment. Overcoming the initial intimidation of React and Git has profoundly bolstered our confidence. We emerge from this project not just as students, but as capable front-end developers ready for real-world team environments.
 
-## 6. Team Contributions
-To maintain transparency and accurately reflect the division of labor for TS Academy evaluators, the team's contributions are outlined below:
 
-### Core Development Team (Active Phase)
-These members were responsible for the architecture, primary component development, Git management, and deployment.
-- **Emma (Team Lead):** Project architecture, Git workflow management, built the responsive **DataTable** component, resolved deployment roadblocks, and handled code reviews/merges.
-- **[Active Member Name]:** Developed the **Hero** and **Navbar** components.
-- **[Active Member Name]:** Developed the **PlanetGrid**, **PlanetCard**, and **VideoSection** components.
-- **[Active Member Name]:** Developed the interactive **ContactForm**.
-*(Add any other active members and the specific code/components they pushed here)*
 
-### Administrative & Documentation Team (Final Phase)
-These members assisted during the final integration phase to fulfill project requirements without altering core React structures.
-- **[Late-Shift Member A]:** Handled external linking, adding required TS Academy, Amaka, and Ifeoma links, and updating the **Footer.jsx** component.
-- **[Late-Shift Member B]:** Managed HTML `<head>` updates, author meta tags, SEO setup, and Open Graph optimization.
-- **[Late-Shift Member C]:** Overhauled the documentation and finalized the `README.md` and `reports.md` structural drafts.
+
 
 ---
 *This project represents Group 13's commitment to clean code, professional workflows, and overcoming technical and logistical hurdles.*
