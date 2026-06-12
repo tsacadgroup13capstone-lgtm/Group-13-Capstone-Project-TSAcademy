@@ -91,6 +91,9 @@
     padding: 12px 8px;
     font-size: 12px;
   }
+  .data-table-container {
+    padding: 0 20px;
+  }
 }
 
 /* Mobile & Small Phones: 650px and below */
