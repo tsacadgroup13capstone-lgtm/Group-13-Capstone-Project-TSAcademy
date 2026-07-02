@@ -3,13 +3,13 @@ import "./PlanetCard.css";
 
 function PlanetCard({ planet, distanceFromSun, image }) {
   return (
-    <div className="planet-card" id="data">
+    <figure className="planet-card" id="data">
       <img src={image} alt={planet} className="planet-img" />
-      <div className="planet-info">
+      <figcaption className="planet-info">
         <p className="planet-name">{planet}</p>
         <p className="planet-distance">{distanceFromSun} million km from Sun</p>
-      </div>
-    </div>
+      </figcaption>
+    </figure>
   );
 }
 
